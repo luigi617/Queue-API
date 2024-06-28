@@ -1,2 +1,5 @@
 # Queue-API
-API for simulating queue in real world
+API to simulate queue in real world
+
+Usage
+-------
