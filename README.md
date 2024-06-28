@@ -65,6 +65,7 @@ Response:
     }
 }
 ```
+
 **Add Waiter to the Queue**
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/add_waiter/?name=<name>&type=<type>
@@ -96,11 +97,13 @@ If you desire to process a specific waiter, you can use
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/process_waiter/<waiter_id>/
 ```
+
 **Finish Processing Waiter**
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/finish_processing_waiter/<waiter_id>/
 ```
 It changes the status from processing to completed of the waiter.
+
 **Get Expected Waiting Time**
 To get the expected waiting time of the a existing waiter, use
 ```
@@ -113,6 +116,7 @@ To get the expected waiting time of the queue
 https://luigiliu.com/openapi/queues/<queue_id>/expected_waiting_time/?type=<type>
 ```
 If type is provided, it will consider waiters of the type. Otherwise, all waiters are considered.
+
 **Get Expected Processing Time**
 To get the expected waiting time of the queue
 ```
