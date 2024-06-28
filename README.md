@@ -4,6 +4,7 @@ API to simulate queue in real world
 Usage
 -------
 **Create New Queue**
+
 ```
 https://luigiliu.com/openapi/queues/create/
 ```
@@ -17,6 +18,7 @@ This creates a new queue by responding its id. Response:
 ```
 
 **View Queue Information**
+
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/
 ```
@@ -67,6 +69,7 @@ Response:
 ```
 
 **Add Waiter to the Queue**
+
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/add_waiter/?name=<name>&type=<type>
 ```
@@ -88,6 +91,7 @@ Response:
 ```
 
 **Process Waiter**
+
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/process_next_waiter/
 ```
@@ -99,12 +103,14 @@ https://luigiliu.com/openapi/queues/<queue_id>/process_waiter/<waiter_id>/
 ```
 
 **Finish Processing Waiter**
+
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/finish_processing_waiter/<waiter_id>/
 ```
 It changes the status from processing to completed of the waiter.
 
 **Get Expected Waiting Time**
+
 To get the expected waiting time of the a existing waiter, use
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/expected_waiting_time/<waiter_id>/
@@ -118,6 +124,7 @@ https://luigiliu.com/openapi/queues/<queue_id>/expected_waiting_time/?type=<type
 If type is provided, it will consider waiters of the type. Otherwise, all waiters are considered.
 
 **Get Expected Processing Time**
+
 To get the expected waiting time of the queue
 ```
 https://luigiliu.com/openapi/queues/<queue_id>/expected_processing_time/?type=<type>
