@@ -3,6 +3,12 @@ API to simulate queue in real world.
 
 A Queue will last only 24 hours from the last modification. After 24 hours, it will be deleted.
 
+Install
+-------
+I have used Django + Rest Framework + Redis. However, once the logic of Queue API is uploaded
+
+Feel free to fork and do whatever you want with the code.
+
 Usage
 -------
 **Create New Queue**
