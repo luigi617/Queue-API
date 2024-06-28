@@ -1,5 +1,6 @@
 # Queue-API
 API to simulate queue in real world
+A Queue will last only 24 hours from the last modification. After 24 hours, it will be deleted.
 
 Usage
 -------
