@@ -3,7 +3,7 @@ API to simulate queue in real world
 
 Usage
 -------
-Create New Queue
+**Create New Queue**
 ```
 https://luigiliu.com/openapi/queues/create/
 ```
